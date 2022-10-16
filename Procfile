@@ -1,1 +1,1 @@
-web: gunicorn fromage-opedie.wsgi --log-file -
+web: gunicorn fromage-opedie.wsgi
