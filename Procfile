@@ -1,1 +1,1 @@
-web: vendor/ Code/
+web: vendor/bin Code/
