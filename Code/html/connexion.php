@@ -48,16 +48,16 @@ $mdp = "";
             </div>
 
             <div class="onglets">
-                <a href="fromage.html">
+                <a href="fromage.php">
                     <p>Fromages</p>
                 </a>
-                <a href="favoris.html">
+                <a href="favoris.php">
                     <p>Favoris</p>
                 </a>
                 <a href="histoire.html">
                     <p>Histoire</p>
                 </a>
-                <a href="carte.html">
+                <a href="carte.php">
                     <p>Carte</p>
                 </a>
             </div>
@@ -68,6 +68,8 @@ $mdp = "";
             </div>
 
         </nav>
+
+    </header>
 
     </header>
 
@@ -98,23 +100,27 @@ $mdp = "";
 
                 if (isset($_POST['formulaire_connexion'])) {
                     if (isset($mail, $mdp)) {
-                        $mail = $_POST['mail'];
-                        $password = $_POST['mdp'];
+                        $mail = htmlspecialchars($_POST['mail']);
+                        $mdp = $_POST['mdp'];
                         if (!empty($mail) || !empty($mdp)) {
-                            $requConnexionVerif = $conn->prepare('SELECT email FROM utilisateur WHERE email = :mail');
-                            $requConnexionVerif->bindValue('mail', $mail);
-                            $return = $requConnexionVerif->fetch(PDO::FETCH_ASSOC);
+                            if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+                                $requConnexionVerif = $conn->prepare('SELECT email FROM utilisateur WHERE email = :mail');
+                                $requConnexionVerif->bindValue('mail', $mail);
+                                $return = $requConnexionVerif->fetch(PDO::FETCH_ASSOC);
 
-                            if ($return) {
-                                $mdpHash = $return['motdepasse'];
-                                var_dump($mdpHash);
-                                if (password_verify($mdp, $mdpHash)) {
-                                    echo "Connexion réussi !!!";
+                                if ($return) {
+                                    $mdpHash = $return['motdepasse'];
+                                    var_dump($mdpHash);
+                                    if (password_verify($mdp, $mdpHash)) {
+                                        echo "Connexion réussi !!!";
+                                    } else {
+                                        echo "Adresse mail ou mot de passe incorrect !!!";
+                                    }
                                 } else {
-                                    echo "Adresse mail ou mot de passe incorrect !!!";
+                                    echo "1Adresse mail ou m    ot de passe incorrect !!!";
                                 }
                             } else {
-                                echo "1Adresse mail ou mot de passe incorrect !!!";
+                                echo "Adresse mail invalide !!!";
                             }
                         } else {
                             echo "Veuillez remplir tous les champs !!!";

@@ -22,10 +22,10 @@
             </div>
 
             <div class="onglets">
-                <a href="fromage.html"><p>Fromages</p></a>
-                <a href="favoris.html"><p>Favoris</p></a>
+                <a href="fromage.php"><p>Fromages</p></a>
+                <a href="favoris.php"><p>Favoris</p></a>
                 <a href="histoire.html"><p>Histoire</p></a>
-                <a href="carte.html"><p>Carte</p></a>
+                <a href="carte.php"><p>Carte</p></a>
             </div>
 
             <div class="log">

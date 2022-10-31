@@ -54,16 +54,16 @@ $estFromager = "FALSE";
             </div>
 
             <div class="onglets">
-                <a href="fromage.html">
+                <a href="fromage.php">
                     <p>Fromages</p>
                 </a>
-                <a href="favoris.html">
+                <a href="favoris.php">
                     <p>Favoris</p>
                 </a>
                 <a href="histoire.html">
                     <p>Histoire</p>
                 </a>
-                <a href="carte.html">
+                <a href="carte.php">
                     <p>Carte</p>
                 </a>
             </div>
