@@ -220,8 +220,6 @@
             </svg>
         </div>
 
-        <span class="ligne-separatrice"></span>
-
         <div class="liste">
 			<li><a href="#">Itinéraires</a>
 				<ul>
