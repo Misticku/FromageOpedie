@@ -1,3 +1,27 @@
+<?php
+
+/* Connexion */
+
+$host = 'ec2-34-246-86-78.eu-west-1.compute.amazonaws.com';
+$dbname = 'd6jd8juvb86a3p';
+$user = 'tncgniwrddfkvg';
+$password = '88d421f583b147bb6d8eaee9cd377b48a16d9c9481c094032c12aa17f968e19b';
+$bdd = "pgsql:host=$host;port=5432;dbname=$dbname;user=$user;password=$password";
+
+try {
+    $conn = new PDO("pgsql:host=$host;port=5432;dbname=$dbname;user=$user;password=$password");
+} catch (PDOException $e) {
+    echo $e->getMessage();
+}
+
+/* Initialisation des varibales pour l'ensemble du code PHP */
+
+$img = "";
+$nomFromage = $conn->query('SELECT * FROM fromage;');
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -78,24 +102,13 @@
         <div class="global_container">
 
             <div class="container_fromage">
-
-                <div class="fromage">
-                    <img src="../Img/st-nectaire.jpeg" alt="Image de st nectaire">
-                    <h1>Le st nectaire</h1>
-                    <form method=""><i class="fa-regular fa-star"></i></form>
-                </div>
-
-                <div class="fromage">
-                    <img src="../Img/st-nectaire.jpeg" alt="Image de st nectaire">
-                    <h1>Le st nectaire</h1>
-                    <form method=""><i class="fa-regular fa-star"></i></form>
-                </div>
-
-                <div class="fromage">
-                    <img src="../Img/st-nectaire.jpeg" alt="Image de st nectaire">
-                    <h1>Le st nectaire</h1>
-                    <form method=""><i class="fa-regular fa-star"></i></form>
-                </div>
+                <?php while ($name = $nomFromage->fetch()) { ?>
+                    <div class="fromage">
+                        <img src="../Img/st-nectaire.jpeg" alt="Image de st nectaire">
+                        <h1><?= $name['nom'] ?></h1>
+                        <form method=""><i class="fa-regular fa-star"></i></form>
+                    </div>
+                <?php } ?>
             </div>
 
         </div>
