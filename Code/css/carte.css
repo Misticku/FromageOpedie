@@ -31,6 +31,7 @@ section{
     display: flex;
     width: 50%; 
     margin: 0 auto;
+    border-right: 5px inset steelblue;
 }
 
 path {
@@ -52,16 +53,13 @@ g path:hover {
     fill: #86eee0;
 }
 
-/* Code Ligne Séparatrice */
-
-.ligne-separatrice{
-    display: flex;
-    border-left: 2px solid;
-    height: 50em;
-    margin: 0 20px;
-}
-
 /* Code Itinéraire */
+
+.liste{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .liste a { 
     display:block; 
@@ -69,6 +67,7 @@ g path:hover {
     text-decoration: white wavy underline;;
     text-align: center;
 }
+
 .liste > li,
 .liste > li li {
     position: relative;
@@ -92,7 +91,7 @@ g path:hover {
     text-decoration: none;
     overflow: hidden;
     transition: 0.5s max-height 0.3s;
-    border-radius: 0 0 0 8px;
+    border-radius: 0 0 8px 8px;
 }
 
 .liste > li:hover ul {
