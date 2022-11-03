@@ -1,3 +1,1 @@
-copy Fromage(nom,departementFabrication,urlWikipedia,lait,image,typePate,vinAssocie)
-from 'C:\wamp64\www\Code\bddFromages.csv' delimiter ','
-csv header;
+\copy Fromage(departementFabrication,nom,urlWikipedia,lait,image,typePate,vinAssocie) FROM 'C:\wamp64\www\SAE\FromageOpedie\Code\bddFromages.csv' WITH CSV DELIMITER ',' QUOTE '"'

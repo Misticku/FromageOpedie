@@ -17,7 +17,7 @@ try {
 /* Initialisation des varibales pour l'ensemble du code PHP */
 
 $img = "";
-$nomFromage = $conn->query('SELECT * FROM fromage;');
+$reqFromage = $conn->query('SELECT * FROM fromage;');
 
 ?>
 
@@ -102,10 +102,10 @@ $nomFromage = $conn->query('SELECT * FROM fromage;');
         <div class="global_container">
 
             <div class="container_fromage">
-                <?php while ($name = $nomFromage->fetch()) { ?>
+                <?php while ($req = $reqFromage->fetch()) { ?>
                     <div class="fromage">
-                        <img src="../Img/st-nectaire.jpeg" alt="Image de st nectaire">
-                        <h1><?= $name['nom'] ?></h1>
+                        <?php echo '<img src="../images/' . $req['image'] . '" alt="Image de ' . $req['image'] . '">' ?>
+                        <h1><?= $req['nom'] ?></h1>
                         <form method=""><i class="fa-regular fa-star"></i></form>
                     </div>
                 <?php } ?>
