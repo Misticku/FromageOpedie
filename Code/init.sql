@@ -1,4 +1,4 @@
-CREATE TABLE Utilisateur(
+CREATE TABLE Utilisateur( 
 eMail varchar(100) PRIMARY KEY,
 nom varchar(30) NOT NULL,
 prenom  varchar(30) NOT NULL,
@@ -7,13 +7,13 @@ estFromager bool NOT NULL
 );
 
 CREATE TABLE Fromage(
-nom varchar(50),
-departementFabrication varchar(3),
+nom varchar(60),
+departementFabrication varchar(30),
 urlWikipedia varchar(100),
-lait varchar(20) NOT NULL,
+lait varchar(30) NOT NULL,
 image varchar(60) NOT NULL,
-typePate varchar(30) NOT NULL,
-vinAssocie varchar(30) NOT NULL,
+typePate varchar(40) NOT NULL,
+vinAssocie varchar(40) NOT NULL,
 PRIMARY KEY (nom, departementFabrication)
 );
 

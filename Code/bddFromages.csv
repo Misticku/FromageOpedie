@@ -1,4 +1,3 @@
-departementFabrication,nom,urlWikipedia,lait,image,typePate,vinAssocie
 Allier,A Filetta,http://fr.wikipedia.org/wiki/A_Filetta_%28marque%29,Brebis,A_Filetta.jpg,molle croute lavée,vin blanc moelleux
 Lot,Abbaye de Belloc,http://fr.wikipedia.org/wiki/Abbaye_de_Belloc_%28fromage%29,Brebis,Abbaye_de_Belloc.jpg,pressée non cuite,vin rouge charnu
 Réunion,Abbaye de Cîteaux,http://fr.wikipedia.org/wiki/Abbaye_de_C%C3%AEteaux_%28marque%29,Vaches,Abbaye_de_Citeaux.JPG,pressée non cuite,vin rouge charnu
@@ -147,7 +146,6 @@ Puy-de-Dôme,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C
 Loiret,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
 Sarthe,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
 Aude,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
-Aude,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
 Seine-et-Marne,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
 Drôme,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
 Isère,Gruyère français,http://fr.wikipedia.org/wiki/Gruy%C3%A8re_fran%C3%A7ais,Vache,Gruyere_Francais.jpg,pressée cuite,vin blanc gras
@@ -160,7 +158,6 @@ Ardèche,La Fournaise,http://fr.wikipedia.org/wiki/La_Fournaise_%28fromage%29,Va
 Nord,La Petite Raclette,http://fr.wikipedia.org/wiki/La_Petite_Raclette,Vache,la_Petite_Raclette.jpg,préssée non cuite,vin rouge charnu
 Hautes-Alpes,La Pierre Dorée,http://fr.wikipedia.org/wiki/La_Pierre_Dor%C3%A9e,Chèvre,la_Pierre_Doree.jpg,molle croute fleurie,vin rouge léger
 Lozère,La Vache qui rit,http://fr.wikipedia.org/wiki/La_Vache_qui_rit,Vache,la_Vache_qui_Rit.jpg,fondue,vin blanc vif
-Pas-de-Calais,Laguiole,http://fr.wikipedia.org/wiki/Laguiole_%28fromage%29,Vache,Laguiole.jpg,préssée non cuite,vin rouge charnu
 Pas-de-Calais,Laguiole,http://fr.wikipedia.org/wiki/Laguiole_%28fromage%29,Vache,Laguiole.jpg,préssée non cuite,vin rouge charnu
 Ain,Laguiole,http://fr.wikipedia.org/wiki/Laguiole_%28fromage%29,Vache,Laguiole.jpg,préssée non cuite,vin rouge charnu
 Haute-Marne,Langres,http://fr.wikipedia.org/wiki/Langres_%28fromage%29,Vache,Laguiole.jpg,préssée non cuite,vin rouge charnu
@@ -202,8 +199,6 @@ Lozère,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster
 Réunion,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster.jpg,molle croute lavée,vin blanc moelleux
 Charente,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster.jpg,molle croute lavée,vin blanc moelleux
 Aube,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster.jpg,molle croute lavée,vin blanc moelleux
-Aube,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster.jpg,molle croute lavée,vin blanc moelleux
-Hautes-Alpes,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster.jpg,molle croute lavée,vin blanc moelleux
 Hautes-Alpes,Munster,http://fr.wikipedia.org/wiki/Munster_%28fromage%29,Vache,Munster.jpg,molle croute lavée,vin blanc moelleux
 Nord,Neufchâtel,http://fr.wikipedia.org/wiki/Neufch%C3%A2tel_%28fromage%29,Vache,Neufchatel.jpg,molle croute fleurie,vin rouge léger
 Pas-de-Calais,Neufchâtel,http://fr.wikipedia.org/wiki/Neufch%C3%A2tel_%28fromage%29,Vache,Neufchatel.jpg,molle croute fleurie,vin rouge léger
@@ -225,7 +220,6 @@ Pyrénées-Atlantiques,Pélardon,http://fr.wikipedia.org/wiki/P%C3%A9lardon,Chè
 Réunion,Pélardon,http://fr.wikipedia.org/wiki/P%C3%A9lardon,Chèvre,Pelardon.jpg,molle croute naturelle,vin rouge léger
 Savoie,Pélardon,http://fr.wikipedia.org/wiki/P%C3%A9lardon,Chèvre,Pelardon.jpg,molle croute naturelle,vin rouge léger
 Vienne,Pélardon,http://fr.wikipedia.org/wiki/P%C3%A9lardon,Chèvre,Pelardon.jpg,molle croute naturelle,vin rouge léger
-Yonne,Pérail,http://fr.wikipedia.org/wiki/P%C3%A9rail,Brebis,Perail.jpg,molle croute fleurie,vin rouge léger
 Yonne,Pérail,http://fr.wikipedia.org/wiki/P%C3%A9rail,Brebis,Perail.jpg,molle croute fleurie,vin rouge léger
 Côte-d'Or,Pérassu,http://fr.wikipedia.org/wiki/P%C3%A9rassu,Vache,Perassu.jpg,persillée,vin blanc moelleux
 Indre-et-Loire,Persillé de Tignes,http://fr.wikipedia.org/wiki/Persill%C3%A9_de_Tignes,Chèvre,Persille_de_Tignes.JPG,persillée,vin blanc moelleux
@@ -280,7 +274,6 @@ Charente,Saint-gildas-des-bois,http://fr.wikipedia.org/wiki/Saint-gildas-des-boi
 Aube,Saint-laurent,http://fr.wikipedia.org/wiki/Saint-laurent_%28fromage%29,Vache,Saint_Laurent.jpg,molle croute fleurie,vin rouge léger
 Pas-de-Calais,Saint-nectaire,http://fr.wikipedia.org/wiki/Saint-nectaire_%28fromage%29,Vache,Saint_Nectaire.jpg,préssée non cuite,vin rouge charnu
 Ain,Saint-nectaire,http://fr.wikipedia.org/wiki/Saint-nectaire_%28fromage%29,Vache,Saint_Nectaire.jpg,préssée non cuite,vin rouge charnu
-Mayenne,Sainte-Maure de Touraine,http://fr.wikipedia.org/wiki/Sainte-Maure_de_Touraine_%28fromage%29,Chèvre,Sainte_Maure_de_Touraine.jpg,molle croute naturelle,vin rouge léger
 Mayenne,Sainte-Maure de Touraine,http://fr.wikipedia.org/wiki/Sainte-Maure_de_Touraine_%28fromage%29,Chèvre,Sainte_Maure_de_Touraine.jpg,molle croute naturelle,vin rouge léger
 Isère,Sainte-Maure de Touraine,http://fr.wikipedia.org/wiki/Sainte-Maure_de_Touraine_%28fromage%29,Chèvre,Sainte_Maure_de_Touraine.jpg,molle croute naturelle,vin rouge léger
 Aveyron,Sainte-Maure de Touraine,http://fr.wikipedia.org/wiki/Sainte-Maure_de_Touraine_%28fromage%29,Chèvre,Sainte_Maure_de_Touraine.jpg,molle croute naturelle,vin rouge léger
