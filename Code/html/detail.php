@@ -78,6 +78,15 @@
             <div class="avis">
                 <div class="note">
                     <h2>Noter ce fromage !</h2>
+
+                        <div class="etoile etoile2"><!--
+                            --><a href="#5" title="5/5">★</a><!--
+                            --><a href="#4" title="4/5">★</a><!--
+                            --><a href="#3" title="3/5">★</a><!--
+                            --><a href="#2" title="2/5">★</a><!--
+                            --><a href="#1" title="1/5">★</a>
+                        </div>
+
                 </div>
 
                 <div class="commentaire">
