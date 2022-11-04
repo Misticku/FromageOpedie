@@ -65,7 +65,38 @@ h3{
 }
 
 .note{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     font-size: x-large;
+}
+
+.etoile {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.etoile a {
+    float:right;
+    color: gray;
+    text-decoration: none;
+}
+
+.etoile a:hover,
+.etoile a:hover ~ a,
+.etoile a:focus,
+.etoile a:focus ~ a {
+    color: gold;
+    cursor: pointer;
+}
+
+.etoile2 {
+    direction: rtl;
+}
+
+.etoile2 a {
+    float:none
 }
 
 .wiki{
