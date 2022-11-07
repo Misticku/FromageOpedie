@@ -9,7 +9,7 @@ $password = '88d421f583b147bb6d8eaee9cd377b48a16d9c9481c094032c12aa17f968e19b';
 $bdd = "pgsql:host=$host;port=5432;dbname=$dbname;user=$user;password=$password";
 
 try {
-    $conn = new PDO("pgsql:host=$host;port=5432;dbname=$dbname;user=$user;password=$password");
+    $conn = new PDO($bdd);
 } catch (PDOException $e) {
     echo $e->getMessage();
 }
@@ -18,7 +18,6 @@ try {
 
 $img = "";
 $reqFromage = $conn->query('SELECT * FROM fromage;');
-
 ?>
 
 
@@ -103,11 +102,13 @@ $reqFromage = $conn->query('SELECT * FROM fromage;');
 
             <div class="container_fromage">
                 <?php while ($req = $reqFromage->fetch()) { ?>
-                    <div class="fromage">
-                        <?php echo '<img src="../images/' . $req['image'] . '" alt="Image de ' . $req['image'] . '">' ?>
-                        <h1><?= $req['nom'] ?></h1>
-                        <form method=""><i class="fa-regular fa-star"></i></form>
-                    </div>
+                    <a href="detail.php">
+                        <div class="fromage">
+                            <?php echo '<img src="../images/' . $req['image'] . '" alt="Image de ' . $req['image'] . '">' ?>
+                            <h1><?= $req['nom'] ?></h1>
+                            <form method=""><i class="fa-regular fa-star"></i></form>
+                        </div>
+                    </a>
                 <?php } ?>
             </div>
 
