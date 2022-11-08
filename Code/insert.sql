@@ -1,1 +1,0 @@
-\copy Fromage(departementFabrication,nom,urlWikipedia,lait,image,typePate,vinAssocie) FROM 'C:\wamp64\www\SAE\FromageOpedie\Code\bddFromages.csv' WITH CSV DELIMITER ',' QUOTE '"'
